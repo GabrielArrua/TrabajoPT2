@@ -1,0 +1,60 @@
+package py.edu.facitec.entidades;
+
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+
+import org.hibernate.annotations.ManyToAny;
+@Entity
+public class Pedido {
+
+	@Id
+	@GeneratedValue
+	private Long id;
+	private Date fechaToma;
+	private Date fechaEntrega;
+	private double tatal;
+	
+	// aplicac de asoci bidirecci
+	@ManyToOne
+	private Cliente cliente;
+	
+	public Long getId() {
+		return id;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
+	public Date getFechaToma() {
+		return fechaToma;
+	}
+	public void setFechaToma(Date fechaToma) {
+		this.fechaToma = fechaToma;
+	}
+	public Date getFechaEntrega() {
+		return fechaEntrega;
+	}
+	public void setFechaEntrega(Date fechaEntrega) {
+		this.fechaEntrega = fechaEntrega;
+	}
+	public double getTatal() {
+		return tatal;
+	}
+	public void setTatal(double tatal) {
+		this.tatal = tatal;
+	}
+	@Override
+	public String toString() {
+		return "Pedido [id=" + id + ", fechaToma=" + fechaToma + ", fechaEntrega=" + fechaEntrega + ", tatal=" + tatal
+				+ "]";
+	}
+	
+	
+	
+	
+	
+}

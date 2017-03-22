@@ -1,0 +1,4 @@
+browser-choice=1
+browsers=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<web-browsers current\="1">\r\n<system/>\r\n<external location\="C\:\\Program Files\\Mozilla Firefox\\firefox.exe" name\="Firefox"/>\r\n<external location\="C\:\\Program Files\\Internet Explorer\\iexplore.exe" name\="Internet Explorer"/>\r\n</web-browsers>
+eclipse.preferences.version=1
+internalWebBrowserHistory=http\://localhost\:8080/ejemplo2017/|*|file\:/C\:/Users/User%2016/Desktop/ejemplo2017/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1489615589991/index.html|*|file\:/C\:/Users/User 16/Desktop/sts-bundle/sts-3.7.3.RELEASE/plugins/org.springsource.ide.eclipse.commons.gettingstarted_3.7.3.201602250752-RELEASE/resources/welcome/index.html|*|

@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Wed Mar 15 19:56:14 PYST 2017
+org.eclipse.jst.jee.server\:ejemplo2017=C\:\\Users\\User 16\\Desktop\\sts-bundle\\pivotal-tc-server-developer-3.1.3.SR1\\base-instance\\wtpwebapps\\ejemplo2017
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\User\ 16\\.m2\\repository\\org\\springframework\\spring-web\\4.1.0.RELEASE\\spring-web-4.1.0.RELEASE.jar=C\:\\Users\\User 16\\Desktop\\sts-bundle\\pivotal-tc-server-developer-3.1.3.SR1\\base-instance\\wtpwebapps\\ejemplo2017\\WEB-INF\\lib\\spring-web-4.1.0.RELEASE.jar
